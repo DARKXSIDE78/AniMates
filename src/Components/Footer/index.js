@@ -1,20 +1,23 @@
-import React from 'react';
-import { Stack, SocialLinks, Container, Description } from './styles';
-import CV from './../../Images/CV.pdf';
-
+import React from "react";
+import { Stack, SocialLinks, Container, Description } from "./styles";
 
 export const Footer = () => {
   return (
-    <Container id="contact">
-         <Stack data-aos="fade-up">
-           <SocialLinks href={CV} download><i className="fas fa-file-word"></i></SocialLinks>
-           <SocialLinks href="https://www.linkedin.com/in/steven-dev/"><i className="fab fa-linkedin"></i></SocialLinks>
-           <SocialLinks href="https://github.com/Steven-Ha-88"><i className="fab fa-github"></i></SocialLinks>
-           <SocialLinks href="mailto:steven.dev@outlook.com"><i className="fas fa-envelope"></i></SocialLinks>
-         </Stack>
-         <Description>
-         &copy; Copyright Steven Ha
-         </Description>
+    <Container id='contact'>
+      <Stack data-aos='fade-up'>
+        <SocialLinks
+          href={"https://www.youtube.com/channel/UC5JtyGZB8Ah4DHKX3Cth_Jw"}
+          download>
+          <i className='fab fa-youtube'></i>
+        </SocialLinks>
+        <SocialLinks href='https://www.instagram.com/animatestv/'>
+          <i className='fab fa-instagram'></i>
+        </SocialLinks>
+        <SocialLinks href='https://www.facebook.com/animatestv'>
+          <i className='fab fa-facebook'></i>
+        </SocialLinks>
+      </Stack>
+      <Description>&copy; Copyright AniMates</Description>
     </Container>
   );
-}
+};
