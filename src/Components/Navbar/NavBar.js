@@ -4,15 +4,11 @@ import { Nav, ToggleButton, Stack, SocialLinks } from "./styles";
 
 import { Link } from "react-router-dom";
 
-interface Props {
-  screen: boolean;
-}
-
-const NavBar: React.FC<Props> = (props) => {
+const NavBar = (props) => {
   const [toggle, setToggle] = useState(true);
 
-  const useTransparentHook = (height: number) => {
-    const [isTransparent, setTransparent] = useState<boolean>(true);
+  const useTransparentHook = (height) => {
+    const [isTransparent, setTransparent] = useState(true);
     useEffect(() => {
       function onScroll() {
         if (window.pageYOffset > height) {
