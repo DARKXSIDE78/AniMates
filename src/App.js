@@ -4,7 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import FundingPage from "./Components/Funding/index";
 import AboutPage from "./Components/About/index";
-import Navbar from "./Components/NavBar/NavBar.js";
+import Navbar from "./Components/NavBar/NavBar";
 
 const App = () => {
   return (
