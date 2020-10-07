@@ -5,7 +5,7 @@ import { Nav, ToggleButton, Stack, SocialLinks } from "./styles";
 import { Link } from "react-router-dom";
 
 const NavBar = (props) => {
-  const [toggle, setToggle] = useState(true);
+  // const [toggle, setToggle] = useState(true);
 
   const useTransparentHook = (height) => {
     const [isTransparent, setTransparent] = useState(true);
@@ -57,7 +57,6 @@ const NavBar = (props) => {
       </Link>
       <div>
         <ToggleButton
-          onClick={() => setToggle(false)}
           className='navbar-toggler'
           type='button'
           data-toggle='collapse'

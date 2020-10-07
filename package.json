@@ -1,5 +1,5 @@
 {
-  "name": "the_portfolio",
+  "name": "animates",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,17 +8,12 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/react-router-dom": "^5.1.6",
     "axios": "^0.20.0",
-    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "^3.4.3",
-    "react-spring": "^8.0.27",
-    "styled-components": "^5.1.0",
-    "swup": "^2.0.9",
-    "typescript": "^4.0.3"
+    "styled-components": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

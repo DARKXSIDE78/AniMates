@@ -29,8 +29,8 @@ export const AboutMe = () => {
         <ImgWrapper data-aos='flip-left' image={pic1} />
       </Container>
       <Container>
-        <ImgWrapper order data-aos='flip-right' image={pic2} />
-        <Wrapper order data-aos='fade-up'>
+        <ImgWrapper order='true' data-aos='flip-right' image={pic2} />
+        <Wrapper order='true' data-aos='fade-up'>
           <Header>Merchandise</Header>
           <p>
             AniMates also plan to bring you high quality anime Clothing.
