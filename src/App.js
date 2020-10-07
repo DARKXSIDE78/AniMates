@@ -1,10 +1,9 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-// import { useTransition, animated } from "react-spring";
 import Home from "./Home";
+import Navbar from "./Components/NavBar/index.js";
 import FundingPage from "./Components/Funding/index";
 import AboutPage from "./Components/About/index";
-import Navbar from "./Components/NavBar/index.js";
 
 const App = () => {
   return (
