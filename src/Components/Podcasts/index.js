@@ -44,7 +44,15 @@ export const Podcasts = (props) => {
               <div className='eleven wide column'>
                 <VideoDetail video={selectedVideo} />
               </div>
-              <div className='five wide column'>
+              <div
+                className='five wide column'
+                style={{ display: "flex", flexFlow: "column" }}>
+                <a
+                  href='https://www.youtube.com/channel/UC5JtyGZB8Ah4DHKX3Cth_Jw'
+                  className='latest-button'
+                  style={{ alignSelf: "center" }}>
+                  Podcasts
+                </a>
                 <VideoList onVideoSelect={onVideoSelect} videos={videos} />
               </div>
             </div>

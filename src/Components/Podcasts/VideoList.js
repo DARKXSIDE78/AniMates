@@ -17,15 +17,13 @@ const VideoList = ({ videos, onVideoSelect }) => {
         cursor: "pointer",
         display: "flex",
         justifyContent: "center",
-        flexFlow: "column nowrap",
+        flexFlow: "row wrap",
+        alignItems: "center",
+        margin: "0px",
+        marginTop: "-2px",
       }}
       className='ui relaxed divided list'
       data-aos='flip-left'>
-      <a
-        href='https://www.youtube.com/channel/UC5JtyGZB8Ah4DHKX3Cth_Jw'
-        className='latest-button'>
-        Podcasts
-      </a>
       {renderedList}
     </div>
   );

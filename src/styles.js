@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
    margin: 0; 
    background-image: url(${(props) => props.image});
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-blend-mode: saturation;
   background-attachment: fixed;
   background-color: #fff0;
