@@ -30,7 +30,7 @@ export const Description = styled.p`
   margin: 0 0 20px 0;
   padding: 0px;
   text-align: center;
-  color: black;
+  color: white;
 `;
 
 export const Socials = styled.div`
@@ -59,4 +59,10 @@ export const SocialLinks = styled.a`
   textdecoration: none;
   color: white;
   font-size: 1.5em;
+  :hover {
+    color: ${(props) => props.color};
+  }
+  @media (max-width: 490px) {
+    display: ${(props) => (props.mobile ? "none" : "null")};
+  }
 `;

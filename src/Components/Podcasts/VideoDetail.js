@@ -15,11 +15,14 @@ const VideoDetail = ({ video }) => {
         display: "flex",
         justifyContent: "center",
         flexFlow: "column nowrap",
-      }}
-      data-aos='zoom-in'>
-      <button className='latest-button'>Latest</button>
+      }}>
+      <button className='latest-button'>LATEST</button>
       <div className='ui embed'>
-        <iframe title='video player' src={videoSrc} />
+        <iframe
+          allowFullScreen='allowFullScreen'
+          title='video player'
+          src={videoSrc}
+        />
       </div>
       <div className='ui segment'>
         <h4>{video.snippet.title}</h4>

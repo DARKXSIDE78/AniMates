@@ -184,4 +184,7 @@ export const SocialLinks = styled.a`
   textdecoration: none;
   color: white;
   font-size: 1em;
+  :hover {
+    color: ${(props) => props.color};
+  }
 `;

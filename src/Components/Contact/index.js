@@ -9,7 +9,7 @@ export const Contact = () => {
         <Description data-aos='fade-right'>
           Are you a big anime fan?
         </Description>
-        <Button href='mailto:steven.dev@outlook.com' data-aos='fade-right'>
+        <Button href='mailto:animatestv@gmail.com' data-aos='fade-right'>
           get in touch!
         </Button>
       </Wrapper>

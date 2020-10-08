@@ -3,7 +3,8 @@ import styled, { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   body {
    margin: 0; 
-   background-image: url(${(props) => props.image});
+  //  background-image: url(${(props) => props.image});
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: saturation;
@@ -19,12 +20,15 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   @media (max-width: 768px) {
-    background-image: url(${(props) => props.image});
+    background-color: white;
+
+    // background-image: url(${(props) => props.image});
     height: 371px;
   }
 
   @media (max-width: 480px) {
-    background-image: url(${(props) => props.mobile});
+    background-color: white;
+    // background-image: url(${(props) => props.mobile});
     background-size: cover;
     background-attachment: fixed;
     height: 200px;

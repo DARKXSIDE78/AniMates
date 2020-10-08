@@ -21,9 +21,10 @@ const VideoList = ({ videos, onVideoSelect }) => {
         alignItems: "center",
         margin: "0px",
         marginTop: "-2px",
+        height: "560px",
+        overflow: "scroll",
       }}
-      className='ui relaxed divided list'
-      data-aos='flip-left'>
+      className='ui relaxed divided list'>
       {renderedList}
     </div>
   );

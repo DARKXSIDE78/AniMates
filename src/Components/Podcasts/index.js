@@ -50,8 +50,8 @@ export const Podcasts = (props) => {
                 <a
                   href='https://www.youtube.com/channel/UC5JtyGZB8Ah4DHKX3Cth_Jw'
                   className='latest-button'
-                  style={{ alignSelf: "center" }}>
-                  Podcasts
+                  style={{ alignSelf: "center", textAlign: "center" }}>
+                  PODCASTS
                 </a>
                 <VideoList onVideoSelect={onVideoSelect} videos={videos} />
               </div>

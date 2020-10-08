@@ -22,16 +22,15 @@
   width: 90px;
   height: 25px;
   margin-left: 10px;
-  background: #7640ff;
+  background: #ab393c;
   border: none;
-  color: #74ccca;
+  color: white;
   font-size: 15px;
   position: relative;
   top: 2px;
   margin-bottom: -5px;
   z-index: 100;
   align-self: center;
-  font-family: "Rock Salt", cursive;
 }
 
 .exit {
