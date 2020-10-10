@@ -30,16 +30,16 @@ export const Header = styled.h1`
 `;
 
 export const ImgWrapper = styled.div`
-  padding-top: 100px;
-  padding-right: 50px;
-  padding-bottom: 50px;
+  // padding-top: 100px;
+  // padding-right: 50px;
+  // padding-bottom: 50px;
   width: 40%;
   height: 100%;
   margin-top: 10px;
   align-self: center;
   @media (max-width: 780px) {
     width: 100%;
-    padding: 10px;
+    // padding: 10px;
   }
 `;
 

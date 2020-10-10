@@ -25,12 +25,16 @@ const About = () => {
         </p>
       </Wrapper>
       <ImgWrapper>
-        <iframe
-          src='https://giphy.com/embed/xUA7b9BGCRbVlYnnLq'
+        <img
+          src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpre15.deviantart.net%2F8d96%2Fth%2Fpre%2Ff%2F2007%2F208%2Fc%2Fd%2Fyoung_kakashi_by_sadritheus.jpg&f=1&nofb=1'
+          data-id='210014928007202'
+          data-size='medium'
+          data-head='1'
+          data-foot='1'
+          alt='#naruto #tsunade #funny   '
           width='100%'
-          height='270'
-          frameBorder='0'
-          allowFullScreen></iframe>
+          height='100%'
+        />
       </ImgWrapper>
     </Section>
   );
